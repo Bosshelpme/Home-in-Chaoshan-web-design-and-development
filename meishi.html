@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>潮汕---美食</title>
+    <link rel="shortcut icon" href="images/tubiao.ico" />
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    body{
+        background:url("images/p20.jpg")  no-repeat center center;
+        background-size:cover; 
+        background-attachment:fixed; 
+        background-color:#CCCCCC; 
+    }
+    ul{
+        width: 200px;
+        height: 200px;
+        margin: 100px auto;
+        position: relative;
+        transform-style: preserve-3d;
+        animation:move 10s infinite linear;
+        
+    }
+    li{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        cursor: pointer;
+    }
+    @keyframes move{
+             0%{
+         transform: rotateX(0deg) rotateY(0deg)  rotateZ(0deg)
+             }
+             100%{
+         transform: rotateX(180deg) rotateY(180deg)  rotateZ(180deg)
+             }
+         }
+    li:nth-of-type(1){
+         transform: translateZ(100px)
+        }
+    li:nth-of-type(2){
+         transform: translateZ(-100px)
+        }
+    li:nth-of-type(3){
+         transform: translateX(-100px) rotateY(90deg)
+        }
+    li:nth-of-type(4){
+         transform: translateX(100px) rotateY(-90deg)
+        }
+    li:nth-of-type(5){
+         transform: translateY(100px) rotateX(-90deg)
+        }
+    li:nth-of-type(6){
+         transform: translateY(-100px) rotateX(90deg)
+        }
+    h1{
+        color:red;
+        font-size:50px;
+        font-family: "楷体"; 
+    }
+    p{
+        text-indent:2em;
+        font-size: 20px;
+        color:#818284;
+        letter-spacing:10px; 
+   }
+   h2{
+        color:red;
+        font-size:35px;
+        font-family: "楷体";
+    }
+    h3{
+        text-align: center;
+        margin-left: 25px;
+    }
+    a{
+        text-decoration: none;
+    }
+   </style>
+</head>
+<body>
+    <ul>
+        <li><img src="images/pp2.jpg" alt="" width="200px"></li>
+        <li><img src="images/pp5.jpg" alt="" width="200px"></li>
+        <li><img src="images/pp6.jpg" alt="" width="200px"></li>
+        <li><img src="images/pp11.jpg" alt="" width="200px"></li>
+        <li><img src="images/pp7.jpg" alt="" width="200px"></li>
+        <li><img src="images/pp12.jpg" alt="" width="200px"></li>
+    </ul>
+    <audio src="music/m1.mp3" autoplay="autoplay"></audio>
+    <h1>潮汕美食知多少</h1>
+    <br>
+    <p>潮菜是中国四大菜系之粤菜主干，潮汕菜一贯是广东菜的代表，为广东菜三大流派之一，发源于潮汕平原，历经千余年而形成和发展，以其独特风味自成一体,潮汕美食，几乎所有人都只会赞不绝口。据不完全统计，潮汕小吃有230多种。价格亲民，营养丰富，风味也独特。来过潮汕，你便再也忘不掉这个地方。无论是物质遗产还是古俗文化，你很难不赞叹其鲜明的特点以及潮汕文化在整个潮人社会中的影响力。来过潮汕，你便知道潮汕文化的悠久和丰富是无法短时间看完的，需要你滋滋探索，细细品味，而潮汕美食则是你与潮汕结缘的起点。精彩的是乡情，动人的是潮汕美食！</p>
+    <br>
+    <a href="https://baike.baidu.com/item/%E6%BD%AE%E6%B1%95%E7%89%9B%E8%82%89%E7%81%AB%E9%94%85">
+    <h2>牛肉火锅：给我一个不爱的理由</h2></a>
+    <br>
+    <p>去潮汕不吃顿牛肉火锅，都不好意思说自己去过潮汕。潮汕人把牛分的很精细，肥牛、嫩肉、吊龙伴、匙柄、雪花、花趾……不同部位会有不同的口感，有的鲜嫩入口即化，有的润而不腻，“愣是”把一头牛吃成了“满汉全席”。水开之后，肉大概涮10秒左右，配上特制的沙茶酱，鲜香甘甜，唇齿留香。潮汕牛肉丸也是独具特色，最经典的吃法，当属清汤牛肉丸。一口下去，你会感觉到肉质的结实，牛肉丸如同跟牙齿进行了一番温柔的抵抗，欲拒还迎的感觉一试难忘；再加细细咀嚼，则可感牛肉丸如在齿间跳舞，香浓的牛肉味随着舞步在舌尖蔓延；最后喝一口汤，便是浓郁肉香跟汤汁肆无忌惮地牵手游走。</p>
+    <br>
+    <h3><video src="video/v2.mp4"controls width="800" height="400"></video></h3>
+    <a href="https://baike.baidu.com/item/%E6%BD%AE%E6%B1%95%E8%9A%9D%E7%83%99">
+    <h2>蚝烙：一定要趁热吃才香甜鲜美</h2></a>
+    <p>潮汕蚝烙，福建也叫海蛎煎，台湾叫蚵仔煎，由番薯粉和新鲜蚝仔、鸡蛋煎制而成。两面焦黄，酥而不硬，蚝肉鲜嫩，汁水饱满。吃的时候蘸取鱼露，绝对是小吃界中的奢侈品。</p>
+    <p>蚝烙是潮汕久负盛名的传统民间小食，蚝烙实际即是蚝煎，在潮汕城市乡村小市集，常有这种小店或摆摊小贩。这种蚝烙，是用地瓜粉溶于水，拌葱珠，在一个平底的铁锅上煎，加上海蛎，再下蛋花，品尝时要放上洗净切碎的青青翠翠的芫荽，配上的酱碟便是沙茶和鱼露。</p>
+    <h3><video src="video/v3.mp4"controls width="800" height="400"></video></h3>
+    <a href="https://baike.baidu.com/item/%E6%BD%AE%E6%B1%95%E7%A0%82%E9%94%85%E7%B2%A5/2419305?fr=aladdin">
+    <h2>砂锅粥：一个鲜字表达出原汁原味</h2></a>
+    <p>潮汕砂锅粥亦称“潮州砂锅粥”，是广东省潮汕地区特色传统名点。制作原料主要有基围虾、香米、糯米、香菜、香葱等。味道鲜美异常，还有股淡淡的清香。潮人非鲜而不食，同理潮州粥最中意的也是一个字“鲜”！鳝鱼、水鸡、虾、蟹膏，这几种是潮汕人做砂锅粥最常用的几道原料，易熟，又最能表达鲜美与原汁原味，通常一锅可供2-3人食用。</p>
+    <h3><video src="video/v4.mp4"controls width="800" height="400"></video></h3>
+    <h2>端午食叶，胜似服药</h2>
+    <p>潮汕药膳，应该是潮菜的一个组成部分。潮汕人讲究饮食，不但讲究色、香、味、形，还讲究饮食时人体的保健作用，这正是潮汕饮食文化的一大特色，“端午食叶，胜似服药”这句潮汕民谚，正体现了这方面的内容。</p> 
+    <p>因潮汕地区海岸线曲折绵长，多优良港湾，海产异常丰富，因此潮菜自然以烹饪海鲜见长，但其他做法也都各具特色，美味至极，从上述俗语谚语中可见一斑。潮汕作为具有中国传统文化的高度辨识度地区之一，在人文风俗旅游饮食各方面都具有自身鲜明特色。这让许多漂泊在外的“胶己人”一直心系家乡，引以为豪。</p>
+    </script>
+</body>
+</html>

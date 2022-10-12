@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的家乡---潮汕</title>
+    <link rel="shortcut icon" href="images/tubiao.ico" />
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    body{
+        background:url("images/p14.jpg")  no-repeat center center;
+        background-size:cover; 
+        background-attachment:fixed; 
+        background-color:#CCCCCC; 
+    }
+    .aa{
+        width: 500px;
+        height: 300px;
+        /* transition: all 3s; */
+        background:  rgba(240, 255, 255, 0.25);
+        float: right;
+        border-radius: 10px;
+        margin:50px 500px 0px 304px;
+    }
+    .a1{
+        margin-top: 25px;
+    }
+    .a1 input{
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        border-radius: 10px;
+        outline: none;
+        margin-left: 40px;
+    }
+    .a1 label{
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    .a2 input{
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 75px;
+        background: #0f5cd8;
+        color: white;
+        cursor: pointer;
+    }
+    .bb img{
+        margin-top: 30px;
+        margin-left: 75px;
+        border-radius:75%;
+        padding: 25px;
+        cursor: pointer;
+    }
+    .cc img{
+        margin-left: 100px;
+        border-radius:75%;
+        padding: 100px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="bb">
+        <img src="images/a1.gif" alt="">
+        <img src="images/a2.gif" alt="" width="320px">
+        <img src="images/a3.gif" alt="" width="380px">
+    </div>
+    <div class ="aa">
+        
+        <div class="a1">
+                <label for="phone">账  号 :</label><input placeholder="请输入用户账号" id="phone">
+                <br><br>
+                <br><br>
+                <label for="pass">密  码 :</label><input type="password" placeholder="请输入密码" id="password">
+                <br><br>
+                <br><br>
+            </div>
+            <div class="a2">
+                <a href="shouye.html">
+                <input type="button" id="btn_login" value="登录" οnclick="login();"/></a>
+                <a href="zhuce.html">
+                <input type="button" id="btn_regis" value="注册" οnclick="login();"/></a>
+            </div>	
+    </div>
+    <div class="cc">
+        <img src="images/a4.gif" alt="" width="390px">
+        <img src="images/a5.gif" alt="" width="450px">
+    </div>
+</body>
+</html>
